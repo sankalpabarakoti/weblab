@@ -1,0 +1,81 @@
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: grey;
+padding: 10px 20px;
+}
+.nav-links{
+list-style: none;
+display: flex;
+gap: 20px;
+}
+.nav-links li a{
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+.nav-links li a:hover {
+color: #00bfff; /* Hover effect */
+}
+/* Home Section Layout */
+.home-section{
+padding: 40px 10%;
+display: flex;
+justify-content: center;
+}
+.home-content
+{
+display: flex;
+gap: 40px;
+align-items: center;
+}
+.home-image img {
+width: 350px;
+height: auto;
+border-radius: 10px;
+}
+.home-intro h1
+ {
+font-size: 32px;
+margin-bottom: 10px;
+}
+.home-intro p
+{
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.home-btn {
+padding: 10px 20px;
+background-color: grey;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.home-btn:hover 
+{
+background-color: blue;
+}
+.info {
+    text-align: center;
+    font-size: 40px;
+    color:red;
+    background-color:blue;
+}
+
+#s
+{
+    text-align: center;
+ 
+    font-size: 50px;
+}
+.pro{
+    text-align: center;
+    font-size: 40px;
+}
+
+.cont{
+    font-size: 40px;
+}
