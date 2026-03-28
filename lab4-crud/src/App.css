@@ -1,0 +1,47 @@
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 5px;
+  flex: 1;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.todo-list li span {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Completed todos */
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
